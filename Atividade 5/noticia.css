@@ -1,0 +1,162 @@
+/* Estilo básico para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: auto;
+    background-color: #011728;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+    margin: 0;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#header {
+    background-color: #011728;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 35px;
+    text-shadow: 0.1em 0.1em #3C6B8F;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#navegacao{
+    background-color: #01314e;
+    text-align: center;
+    padding: 10px;
+}
+
+#navegacao > ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+#navegacao > ul li a:hover {
+    background-color: #3C6B8F;
+    color: #fff;
+    padding: 10px;
+}
+
+.News-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: left;
+    color: #fff;
+    margin-top: -48px;
+    margin-bottom: 70px;
+ 
+}
+
+.article1 {
+    background: url(bach.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #3C6B8F;
+    margin-top: 100px;
+    height: 364px;
+    width: 413px;
+    
+}
+
+.article2 {
+    background: url(vivaldi.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #3C6B8F;
+    margin-top: 100px;
+    height: 364px;
+    width: 413px;
+}
+
+.article3 {
+    background: url(mozart.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #3C6B8F;
+    margin-top: 100px;
+    height: 364px;
+    width: 413px;
+}
+
+.article1 h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 280px;
+    margin-bottom: -19px;
+    text-shadow: 0.1em 0.1em #011728;
+}
+
+.article2 h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 280px;
+    margin-bottom: -19px;
+    text-shadow: 0.1em 0.1em #011728;
+}
+
+.article3 h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 280px;
+    margin-bottom: -19px;
+    text-shadow: 0.1em 0.1em #011728;
+}
+
+.article1 p{
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 0.1em 0.1em #011728;
+}
+
+.article2 p{
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 0.1em 0.1em #000000;
+}
+
+.article3 p{
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 0.1em 0.1em #011728;
+}
+
+#footer {
+    background-color: #01314e;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 40px;
+}
