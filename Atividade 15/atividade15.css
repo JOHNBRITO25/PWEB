@@ -1,0 +1,64 @@
+body{
+    background-color: hsla(86, 69%, 54%, 0.432);
+}
+
+h1 { 
+    text-align:center; 
+}
+
+.pesquisa {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+form{
+    margin-left: 200px;
+}
+
+@media (max-width: 600px) {
+    form {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+.radiob {
+    text-align: center;
+    color: black;
+}
+
+.botoes {
+    text-align: center;
+}
+
+#nome{
+    border-radius: 12px;
+    height: 20px;
+}
+
+#email{
+    border-radius: 12px;
+    height: 20px;
+    width: 310px;
+}
+
+#comentario{
+    border-radius: 12px;
+    width: 360px;
+}
+
+#enviar{
+    border-radius: 12px;
+}
+
+#limpar{
+    border-radius: 12px;
+}
